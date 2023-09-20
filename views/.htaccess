@@ -1,0 +1,6 @@
+# activer la regle de reecriture d'url
+RewriteEngine On
+# rediriger vers le fichier sans l'extention
+RewriteCond %{REQUEST_FILENAME}.php -f
+RewriteRule ^([^/]+)/?$ $1.php [L]
+

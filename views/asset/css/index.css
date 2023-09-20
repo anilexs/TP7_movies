@@ -1,0 +1,13 @@
+body{
+    background-image: url(../img/suzume.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.contenaire{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+.tab{
+    background-color: gray;
+}
